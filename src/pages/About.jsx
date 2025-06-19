@@ -93,13 +93,13 @@ const About = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg"
+                src="location.png"
                 alt="K. Vishwanathan Tex Workshop"
                 className="rounded-lg shadow-2xl"
               />
               <div className="absolute -bottom-6 -right-6 bg-primary-600 text-white p-6 rounded-lg shadow-lg">
                 <div className="text-center">
-                  <div className="text-3xl font-bold">2011</div>
+                  <div className="text-3xl font-bold">2024</div>
                   <div className="text-sm">Founded</div>
                 </div>
               </div>

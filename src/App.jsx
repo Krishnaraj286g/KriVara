@@ -7,6 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import { AuthProvider } from './contexts/AuthContext';
 import { CartProvider } from './contexts/CartContext';
 
+
+
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
