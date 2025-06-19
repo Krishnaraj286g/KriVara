@@ -71,7 +71,7 @@ router.post('/', [
   body('name').trim().isLength({ min: 2 }).withMessage('Product name is required'),
   body('description').trim().isLength({ min: 10 }).withMessage('Description must be at least 10 characters'),
   body('price').isNumeric().withMessage('Price must be a number'),
-  body('category').isIn(['Golden Shawl', 'Honor Shawl', 'Felicitation Shawl', 'Temple Shawl', 'Other']).withMessage('Invalid category'),
+  body('category').isIn(['Sarees',"Men’s Wear","Women’s Wear",'Ethnic Collections','Festive Wear','Daily Wear','Premium Edition', 'Other']).withMessage('Invalid category'),
   body('stock').isNumeric().withMessage('Stock must be a number')
 ], async (req, res) => {
   try {
