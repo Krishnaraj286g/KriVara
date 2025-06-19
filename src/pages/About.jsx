@@ -94,7 +94,7 @@ const About = () => {
             <div className="relative">
               <img
                 src="location.png"
-                alt="K. Vishwanathan Tex Workshop"
+                alt="Krivara couture Workshop"
                 className="rounded-lg shadow-2xl"
               />
               <div className="absolute -bottom-6 -right-6 bg-primary-600 text-white p-6 rounded-lg shadow-lg">
