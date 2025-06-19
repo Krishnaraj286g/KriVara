@@ -26,7 +26,7 @@ const Home = () => {
 
   const categories = [
     {
-      name: "South Indian Saree's",
+      name: "Sarees",
       image: '/saree.png',
       description: 'Premium Sarees for special occasions, crafted to reflect elegance and tradition.'
     },
@@ -61,7 +61,7 @@ const Home = () => {
       description: "Celebrate heritage in style with our exquisite ethnic wear collection."
     },
      {
-      name:'Others All',
+      name:'Other',
       image: 'Other.png',
       description: "Versatile fashion for all — from everyday essentials to special moments."
     },
