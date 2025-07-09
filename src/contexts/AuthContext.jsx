@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   // Set up axios defaults
-  const API_URL = 'https://krivara.onrender.com/api';
+  const API_URL = 'https://krivara-2.onrender.com/api';
   axios.defaults.baseURL = API_URL;
 
   useEffect(() => {

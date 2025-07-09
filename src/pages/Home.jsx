@@ -100,12 +100,13 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <h1 className="text-4xl  md:text-6xl font-bold mb-6">
                 Krivara Couture
                 <span className="block text-yellow-300">Timeless Fashion & Quality</span>
               </h1>
               <p className="text-xl mb-8 text-primary-100">
-              Discover our exquisite range of sarees and fashion wear, crafted with tradition and excellence since 2020.              </p>
+              Discover our exquisite range of sarees and fashion wear, crafted with tradition and excellence since 2020.             
+              </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link
                   to="/products"
@@ -124,8 +125,7 @@ const Home = () => {
             </div>
             <div className="animate-slide-up">
               <img
-                // src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg"
-                 src="/KrivaraCoutureFashion.png"
+                src="/KrivaraCoutureFashion.png"
                 alt="Premium Textiles"
                 className="rounded-lg shadow-2xl"
               />
@@ -138,14 +138,14 @@ const Home = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-5">
               Our Categories
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Explore our diverse collection of premium sarees and fashion wear, designed for every occasion and every style.
             </p>
           </div>
-
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {categories.map((category, index) => (
               <Link
