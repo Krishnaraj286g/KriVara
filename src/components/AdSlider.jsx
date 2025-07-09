@@ -13,7 +13,7 @@ const AdSlider = () => {
     if (ads.length > 1) {
       const interval = setInterval(() => {
         setCurrentSlide((prev) => (prev + 1) % ads.length);
-      }, 10000); // Auto-slide every 10 seconds
+      }, 5000); // Auto-slide every 10 seconds
 
       return () => clearInterval(interval);
     }
